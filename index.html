@@ -14,7 +14,7 @@
 <body>
 
     <header id="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav id="nav-bar"class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <img id="header-img" class="navbar-brand " src="logo.png" />
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div id="nav-bar" class="navbar-nav ">
+                    <div class="navbar-nav ">
                         <a class="nav-link" href="#features">Features</a>
                         <a class="nav-link" href="#howitwork">how it work</a>
                         <a class="nav-link" href="#pricing">Pricing</a>
@@ -33,8 +33,8 @@
         </nav>
     </header>
     <section id="features" class="section-class">
-        <div>
-            <div><img src="arrows.png" alt="arrows"></div>
+        <div class="parent-div ">
+            <div><img class="feature-logo"src="arrows.png" alt="arrows"></div>
             <div>
                 <h1>Premium Materials</h1>
                 <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
@@ -42,16 +42,16 @@
             </div>
 
         </div>
-        <div>
-            <div><img src="beanie.png" alt="beanie"></div>
+        <div class="parent-div">
+            <div><img class="feature-logo"src="beanie.png" alt="beanie"></div>
             <div>
                 <h1>Fast Shipping</h1>
                 <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
                     returns if you are not satisfied.</p>
             </div>
         </div>
-        <div>
-            <div><img src="triangle.png" alt="triangle"></div>
+        <div class="parent-div ">
+            <div><img class="feature-logo"src="triangle.png" alt="triangle"></div>
             <div>
                 <h1>Quality Assurance</h1>
                 <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
@@ -63,13 +63,18 @@
     </section>
 
     <section id="howitwork" class="section-class">
-        <!-- <iframe  src="https://youtu.be/y8Yv4pnO7qc" frameborder="0"></iframe> -->
         <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0">
         </iframe>
+    
     </section>
 
     <section id="pricing" class="section-class">
+        <h1>Handcrafted, home-made masterpieces</h1>
 
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" name="email" type="email" placeholder="enter your email here" required >
+    <input id="submit" class="btn btn-primary" type="submit"></input>
+</form>
     </section>
 
 </body>
